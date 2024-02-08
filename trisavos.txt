@@ -1,19 +1,11 @@
-<<<<<<< HEAD
 jesuíno
-=======
-jesuino
->>>>>>> 8a586549ded68d803a869b6542a92396a1029dbd
 josina
 giovanni
 joaquina
 tomasz
 rita
 adelino
-<<<<<<< HEAD
 francisca
-=======
-francista
->>>>>>> 8a586549ded68d803a869b6542a92396a1029dbd
 ivan
 anna
 felip
@@ -21,8 +13,4 @@ tatjana
 dumitru
 anastacia
 demyan
-<<<<<<< HEAD
 ferudokija
-=======
-ferudokija
->>>>>>> 8a586549ded68d803a869b6542a92396a1029dbd
