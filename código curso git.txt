@@ -1,0 +1,1531 @@
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ git version
+git version 2.43.0.windows.1
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ls
+'3D Objects'/
+'Ambiente de Impressão'@
+'Ambiente de Rede'@
+ AppData/
+ Coimbra/
+'Configurações Locais'@
+ Contacts/
+ Cookies@
+'Dados de Aplicativos'@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Menu Iniciar'@
+'Meus Documentos'@
+ Modelos@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TM.blf
+ NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Tracing/
+ Videos/
+ anaconda3/
+ eb-virt/
+ ebdjango/
+ kubectl.exe*
+ ledgerlive-logs-2023.03.08-15.25.21-de629932.json
+ ledgerlive-logs-2023.03.08-15.56.18-de629932.json
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ll
+total 70897
+drwxr-xr-x 1 user 197121        0 Oct 12 16:18 '3D Objects'/
+lrwxrwxrwx 1 user 197121       65 Jul 20  2022 'Ambiente de Impressão' -> '/c/Users/user/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 user 197121       65 Jul 20  2022 'Ambiente de Rede' -> '/c/Users/user/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 user 197121        0 Jul 20  2022  AppData/
+drwxr-xr-x 1 user 197121        0 Jun 18  2023  Coimbra/
+lrwxrwxrwx 1 user 197121       27 Jul 20  2022 'Configurações Locais' -> /c/Users/user/AppData/Local/
+drwxr-xr-x 1 user 197121        0 Jul 20  2022  Contacts/
+lrwxrwxrwx 1 user 197121       57 Jul 20  2022  Cookies -> /c/Users/user/AppData/Local/Microsoft/Windows/INetCookies/
+lrwxrwxrwx 1 user 197121       29 Jul 20  2022 'Dados de Aplicativos' -> /c/Users/user/AppData/Roaming/
+drwxr-xr-x 1 user 197121        0 Feb  8 13:36  Desktop/
+drwxr-xr-x 1 user 197121        0 Jan  2 16:34  Documents/
+drwxr-xr-x 1 user 197121        0 Feb  8 20:02  Downloads/
+drwxr-xr-x 1 user 197121        0 Jul 20  2022  Favorites/
+drwxr-xr-x 1 user 197121        0 Feb  1 13:58  IntelGraphicsProfiles/
+drwxr-xr-x 1 user 197121        0 Oct 12 16:15  Jedi/
+drwxr-xr-x 1 user 197121        0 Jul 20  2022  Links/
+lrwxrwxrwx 1 user 197121       58 Jul 20  2022 'Menu Iniciar' -> '/c/Users/user/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 user 197121       23 Jul 20  2022 'Meus Documentos' -> /c/Users/user/Documents/
+lrwxrwxrwx 1 user 197121       57 Jul 20  2022  Modelos -> /c/Users/user/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 user 197121        0 Mar  3  2023  Music/
+-rw-r--r-- 1 user 197121 11272192 Jan 31 22:47  NTUSER.DAT
+-rw-r--r-- 1 user 197121    65536 Jul 20  2022  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 user 197121   524288 Jul 20  2022  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 user 197121   524288 Jul 20  2022  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 user 197121    65536 Apr 12  2023  NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TM.blf
+-rw-r--r-- 1 user 197121   524288 Apr 12  2023  NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 user 197121   524288 Apr 12  2023  NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000002.regtrans-ms
+drwxr-xr-x 1 user 197121        0 Feb  8 10:00  OneDrive/
+drwxr-xr-x 1 user 197121        0 May 11  2023  Pictures/
+lrwxrwxrwx 1 user 197121       54 Jul 20  2022  Recent -> /c/Users/user/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 user 197121        0 Jul 20  2022 'Saved Games'/
+drwxr-xr-x 1 user 197121        0 Jul 20  2022  Searches/
+lrwxrwxrwx 1 user 197121       54 Jul 20  2022  SendTo -> /c/Users/user/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 user 197121        0 Aug 24  2022  Tracing/
+drwxr-xr-x 1 user 197121        0 Mar  1  2023  Videos/
+drwxr-xr-x 1 user 197121        0 Apr  6  2023  anaconda3/
+drwxr-xr-x 1 user 197121        0 Nov 11  2022  eb-virt/
+drwxr-xr-x 1 user 197121        0 Nov 11  2022  ebdjango/
+-rwxr-xr-x 1 user 197121 50586112 Oct 18 21:32  kubectl.exe*
+-rw-r--r-- 1 user 197121  1349758 Mar  8  2023  ledgerlive-logs-2023.03.08-15.25.21-de629932.json
+-rw-r--r-- 1 user 197121  1346770 Mar  8  2023  ledgerlive-logs-2023.03.08-15.56.18-de629932.json
+-rw-r--r-- 1 user 197121  2831360 Jul 20  2022  ntuser.dat.LOG1
+-rw-r--r-- 1 user 197121  2834432 Jul 20  2022  ntuser.dat.LOG2
+-rw-r--r-- 1 user 197121       20 Jul 20  2022  ntuser.ini
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^[[200~ssh-keygen -t ed25519 -C "your_email@example.com"
+bash: $'\E[200~ssh-keygen': command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-keygen -t ed25519 -C "andrei.fokin.teixeira@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/user/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/user/.ssh/id_ed25519
+Your public key has been saved in /c/Users/user/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:b2kOnHkPSAJ/MO8TRKoz0UelTC1msnf1edImNOL+hwk andrei.fokin.teixeira@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|        +o.      |
+|     ..*+.. o o  |
+|    o ===. o + + |
+|     =.*. . . = +|
+|    + o.S. .   = |
+|     o * * .E    |
+|        O B  o o |
+|         B o  + .|
+|          . .  . |
++----[SHA256]-----+
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c/User/YOU/ .ssh/^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c:/User/YOU/ .ssh/andrei
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c:/User/YOU/ .ssh/Coimbra#2022
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c:/User/YOU/ .ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c:/User/YOU/ .ssh/ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c:/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add c/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add /c/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add /c:/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add /cC:/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add /C:/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add C:/Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ eval 'ssh-agent'
+SSH_AUTH_SOCK=/tmp/ssh-TKiVdvKYqxPq/agent.391; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=392; export SSH_AGENT_PID;
+echo Agent pid 392;
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cd User
+bash: cd: User: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cd Users
+bash: cd: Users: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cd
+Display all 65 possibilities? (y or n)
+.aws/
+.azure/
+.cache/
+.conda/
+.continuum/
+.docker/
+.dotnet/
+.gitconfig
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.keras/
+.kube/
+.matplotlib/
+.minikube/
+.python_history
+.spyder-py3/
+.ssh/
+.swt/
+.templateengine/
+.vscode/
+3D Objects/
+Ambiente de Impressão/
+Ambiente de Rede/
+AppData/
+Coimbra/
+Configurações Locais/
+Contacts/
+Cookies/
+Dados de Aplicativos/
+Desktop/
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add C:Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-add /C:Users/user/.ssh/id_ed25519
+Could not open a connection to your authentication agent.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ eval 'ssh-agent'
+SSH_AUTH_SOCK=/tmp/ssh-ISMlbF01mWcj/agent.430; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=431; export SSH_AGENT_PID;
+echo Agent pid 431;
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ eval 'ssh'
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+           [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+           [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J destination] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-P tag] [-p port] [-Q query_option]
+           [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           destination [command [argument ...]]
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ eval 'ssh-key'
+bash: ssh-key: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ eval 'ssh key'
+ssh: Could not resolve hostname key: Name or service not known
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ eval 'key'
+bash: key: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cat ~/.ssh/id_rsa.pub
+cat: /c/Users/user/.ssh/id_rsa.pub: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cat ~/.ssh/id_rsa.pub
+cat: /c/Users/user/.ssh/id_rsa.pub: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cat /.ssh/id_rsa.pub
+cat: /.ssh/id_rsa.pub: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cat .ssh/id_rsa.pub
+cat: .ssh/id_rsa.pub: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C "andrei.fokin.teixeira@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/user/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/user/.ssh/id_rsa
+Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:KWtyMcxpWaetkJAJA+g8rOQhlqNgslToNjV/kwy+1IM andrei.fokin.teixeira@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|o.+              |
+|.. * +           |
+|= + B = o .      |
+|+^   E % =       |
+|&.= . # S .      |
+|+.   o * .       |
+|    . + .        |
+|     +           |
+|                 |
++----[SHA256]-----+
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ~cat ~/.ssh/id_rsa.pub~
+bash: ~cat: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cat ~/.ssh/id_rsa.pub~
+cat: /c/Users/user/.ssh/id_rsa.pub~: No such file or directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDF+8AFkAAUYKipbdqSoVJS33sSeQ+RCU3PHfh10QnWoeIwINupWy1x+sNj/3UqjcN0MqUs3+CKxPQmDTJNU+QI9+/JyjTVd/yWvZlKC+HuYh5gll5M4fmKMy0MoEVJFqs94c21bXAToOusUNLd/5PJ3UtNCNMUMamLKPn6fbq1a0e6MG3V5aMFh0I3NfBlN8cqEC8MScEP//Rg1qMa9QqXJQEzmqGroMVycA3j+9XgYCgBrnojfOJbCCeKj2zNz/otGnf3AwQJ+c6gQ1iGxUmeQ0k375W8w2ZmAYet3DBDJdoSIUb7Yym4kNw7FKz0wFnv1qvcFlnCBdzMU0LQ5BNor9Y+BXpXnlpLoTpGsYmENGXDdXuXyNGJQjrtp/DR39J3ZrLVo8fYZ/VakSdzNYbwjnHLOPYbvf95KYQ6lbXZ4LXwOGltYI32GtlSwJjHafDaBgS03enEtXQHaIKhkeHGv4jHHBo2/l0ZgrYPeysKDJ1fWOYpQIE+5QZOxDL4ARhQHl3v0tDXTLdocjxFSlEzsXN4865CizF2I6XeCLQw2UXJHoFswCPjF/sdGfjXK870zU4WElqwyhXCqZ4f76NNtftsPyhkdSa8Jubvcp3+XR8vSaSTA6xMqJQUTNiChlo6hW8gew/QZdk2rtcV3b3hrxHaXePL6JemhdB5deH7YQ== andrei.fokin.teixeira@gmail.com
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enter passphrase for key '/c/Users/user/.ssh/id_rsa':
+Hi afokin93! You've successfully authenticated, but GitHub does not provide shell access.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ git help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ ls
+'3D Objects'/
+'Ambiente de Impressão'@
+'Ambiente de Rede'@
+ AppData/
+ Coimbra/
+'Configurações Locais'@
+ Contacts/
+ Cookies@
+'Dados de Aplicativos'@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Jedi/
+ Links/
+'Menu Iniciar'@
+'Meus Documentos'@
+ Modelos@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TM.blf
+ NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Tracing/
+ Videos/
+ anaconda3/
+ eb-virt/
+ ebdjango/
+ kubectl.exe*
+ ledgerlive-logs-2023.03.08-15.25.21-de629932.json
+ ledgerlive-logs-2023.03.08-15.56.18-de629932.json
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cd
+Display all 65 possibilities? (y or n)
+.aws/
+.azure/
+.cache/
+.conda/
+.continuum/
+.docker/
+.dotnet/
+.gitconfig
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.keras/
+.kube/
+.matplotlib/
+.minikube/
+.python_history
+.spyder-py3/
+.ssh/
+.swt/
+.templateengine/
+.vscode/
+3D Objects/
+Ambiente de Impressão/
+Ambiente de Rede/
+AppData/
+Coimbra/
+Configurações Locais/
+Contacts/
+Cookies/
+Dados de Aplicativos/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Jedi/
+Links/
+Menu Iniciar/
+Meus Documentos/
+Modelos/
+Music/
+NTUSER.DAT
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TM.blf
+NTUSER.DAT{fc2e05d7-d949-11ed-ba6b-8cec4bdfe384}.TMContainer00000000000000000001.regtrans-ms
+--More--     ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~
+$ cd .ssh
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh
+$ cd page
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page
+$ git init
+Initialized empty Git repository in C:/Users/user/.ssh/page/.git/
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit personagens
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit personagens
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ .git/
+bash: .git/: Is a directory
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit personagens
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/user/.ssh/page/.git/
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ cd ..
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh
+$ get init
+bash: get: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh
+$ cd page
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/user/.ssh/page/.git/
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedir personagens
+bash: gedir: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit personagens
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add personagens
+fatal: pathspec 'personagens' did not match any files
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add bizavós
+fatal: pathspec 'bizavós' did not match any files
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add bizavos.txt
+fatal: pathspec 'bizavos.txt' did not match any files
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add bizavos
+fatal: pathspec 'bizavos' did not match any files
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add "bizavos"
+fatal: pathspec 'bizavos' did not match any files
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ ls -al
+total 9
+drwxr-xr-x 1 user 197121  0 Feb  8 20:53 ./
+drwxr-xr-x 1 user 197121  0 Feb  8 20:48 ../
+drwxr-xr-x 1 user 197121  0 Feb  8 20:53 .git/
+-rw-r--r-- 1 user 197121 69 Feb  8 20:53 bisavos.txt
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit trisavos
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit trisavos.txt
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gir commit
+bash: gir: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-8LMUBNA.(none)')
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$  git config
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git config --global user.name
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git config --global user.email
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bisavos.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add bisavos.txt
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-8LMUBNA.(none)')
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bisavos.txt
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git remote add origin https://github.com/afokin93/my_first_git_repo.git
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git remote -v
+origin  https://github.com/afokin93/my_first_git_repo.git (fetch)
+origin  https://github.com/afokin93/my_first_git_repo.git (push)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$  git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git help config
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   bisavos.txt
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-8LMUBNA.(none)')
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ ^C
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git config --global user.email "andrei.fokin.teixeira@gmail.com"
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git config --global user.name afokin93
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+[master (root-commit) a7ec1fe] Add primeiro arquivo
+ 1 file changed, 8 insertions(+)
+ create mode 100644 bisavos.txt
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/afokin93/my_first_git_repo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+Everything up-to-date
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$  gedit README.md
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit README.md
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit README.md
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gedit README.md
+bash: gedit: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$  git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   trisavos.txt
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit -m "Add a first doc from GitBash to remote repo"              [master 20085fc] Add a first doc from GitBash to remote repo
+ 1 file changed, 8 insertions(+)
+ create mode 100644 trisavos.txt
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 271 bytes | 271.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/afokin93/my_first_git_repo.git
+   a7ec1fe..20085fc  master -> master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   trisavos.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   trisavos.txt
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit -m "Changing trisavos from GitBash"
+[master 4a51d88] Changing trisavos from GitBash
+ 1 file changed, 15 insertions(+), 7 deletions(-)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+To https://github.com/afokin93/my_first_git_repo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+To https://github.com/afokin93/my_first_git_repo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.02 KiB | 86.00 KiB/s, done.
+From https://github.com/afokin93/my_first_git_repo
+   20085fc..8a58654  master     -> origin/master
+Auto-merging trisavos.txt
+CONFLICT (content): Merge conflict in trisavos.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master|MERGING)
+$ git push
+To https://github.com/afokin93/my_first_git_repo.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/afokin93/my_first_git_repo.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master|MERGING)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   trisavos.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master|MERGING)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master|MERGING)
+$ git commit -m "Changing trisavos from GitBash"
+[master 6da2e06] Changing trisavos from GitBash
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 793 bytes | 793.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/afokin93/my_first_git_repo.git
+   8a58654..6da2e06  master -> master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   trisavos.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+[master a589192] Changing again from GitBash
+ 1 file changed, 1 insertion(+), 13 deletions(-)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 380 bytes | 380.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/afokin93/my_first_git_repo.git
+   6da2e06..a589192  master -> master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git diff
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git diff HEAD~1
+diff --git a/trisavos.txt b/trisavos.txt
+index 11b76d2..d2656d8 100644
+--- a/trisavos.txt
++++ b/trisavos.txt
+@@ -1,19 +1,11 @@
+-<<<<<<< HEAD
+ jesuíno
+-=======
+-jesuino
+->>>>>>> 8a586549ded68d803a869b6542a92396a1029dbd
+ josina
+ giovanni
+ joaquina
+ tomasz
+ rita
+ adelino
+-<<<<<<< HEAD
+ francisca
+-=======
+-francista
+->>>>>>> 8a586549ded68d803a869b6542a92396a1029dbd
+ ivan
+ anna
+ felip
+@@ -21,8 +13,4 @@ tatjana
+ dumitru
+ anastacia
+ demyan
+-<<<<<<< HEAD
+-ferudokija
+-=======
+-ferudokija
+->>>>>>> 8a586549ded68d803a869b6542a92396a1029dbd
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bisavos.txt
+        modified:   trisavos.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tetravos.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+[master b4d4e88] Chang bisavos,trisavos from GitBash + Add tetravos
+ 3 files changed, 38 insertions(+)
+ create mode 100644 tetravos.txt
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 602 bytes | 602.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/afokin93/my_first_git_repo.git
+   a589192..b4d4e88  master -> master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git diff HEAD~1
+diff --git a/bisavos.txt b/bisavos.txt
+index d7fe56a..027b264 100644
+--- a/bisavos.txt
++++ b/bisavos.txt
+@@ -1,3 +1,5 @@
++LISTA DE BIZAVÓS:
++
+ joaquim
+ santina
+ geroso
+diff --git a/tetravos.txt b/tetravos.txt
+new file mode 100644
+index 0000000..5b4875b
+--- /dev/null
++++ b/tetravos.txt
+@@ -0,0 +1,34 @@
++LISTA DE TETRAVÓS:
++
++josé
++rita
++simão
++jorzina
++giuseppe
++santa
++antonio
++tereza
++joão
++antonia
++francisco
++francisca
++???
++???
++???
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git clone ~git@github.com:afokin93/my_first_git_repo.git~
+Cloning into 'my_first_git_repo.git~'...
+~git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git pull
+Already up to date.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git pull
+Already up to date.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git branch
+* master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git branch branch_01
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git branch
+  branch_01
+* master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gir checkout branch_01
+bash: gir: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git checkout branch_01
+Switched to branch 'branch_01'
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git branch
+* branch_01
+  master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git status
+On branch branch_01
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    bisavos.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "bisav\303\263s.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git commit
+[branch_01 874fac9] Updating title doc bisavós using my first branch
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename bisavos.txt => "bisav\303\263s.txt" (100%)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git push
+fatal: The current branch branch_01 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_01
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git push --set-upstream origin branch_01
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 275 bytes | 275.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_01' on GitHub by visiting:
+remote:      https://github.com/afokin93/my_first_git_repo/pull/new/branch_01
+remote:
+To https://github.com/afokin93/my_first_git_repo.git
+ * [new branch]      branch_01 -> branch_01
+branch 'branch_01' set up to track 'origin/branch_01'.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git status
+On branch branch_01
+Your branch is up to date with 'origin/branch_01'.
+
+nothing to commit, working tree clean
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git commit
+On branch branch_01
+Your branch is up to date with 'origin/branch_01'.
+
+nothing to commit, working tree clean
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git push
+Everything up-to-date
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git status
+On branch branch_01
+Your branch is up to date with 'origin/branch_01'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    "bisav\303\263s.txt"
+        deleted:    tetravos.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bisavos.txt
+        "tetrav\303\263s.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git status
+On branch branch_01
+Your branch is up to date with 'origin/branch_01'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    tetravos.txt
+        deleted:    trisavos.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "tetrav\303\263s.txt"
+        "trisav\303\263s.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git commit
+[branch_01 eae17d7] Updating titles in my first new branch
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename tetravos.txt => "tetrav\303\263s.txt" (100%)
+ rename trisavos.txt => "trisav\303\263s.txt" (100%)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 255 bytes | 255.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/afokin93/my_first_git_repo.git
+   874fac9..eae17d7  branch_01 -> branch_01
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git merge master
+Already up to date.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git status
+On branch branch_01
+Your branch is up to date with 'origin/branch_01'.
+
+nothing to commit, working tree clean
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (branch_01)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ gir branch
+bash: gir: command not found
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git branch
+  branch_01
+* master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git branch branch_02
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git branch
+  branch_01
+  branch_02
+* master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git log
+commit b4d4e88fe4269aa8b523c18c33fdb5f5a776981a (HEAD -> master, origin/master, branch_02)
+Author: afokin93 <andrei.fokin.teixeira@gmail.com>
+Date:   Fri Feb 9 11:04:15 2024 +0000
+
+    Chang bisavos,trisavos from GitBash + Add tetravos
+
+commit a589192bfc287bce2b1ddd3e74a40d7e83985d61
+Author: afokin93 <andrei.fokin.teixeira@gmail.com>
+Date:   Thu Feb 8 21:57:13 2024 +0000
+
+    Changing again from GitBash
+
+commit 6da2e06244ee956a61e7d7be5a5d5a7432859943
+Merge: 4a51d88 8a58654
+Author: afokin93 <andrei.fokin.teixeira@gmail.com>
+Date:   Thu Feb 8 21:56:09 2024 +0000
+
+    Changing trisavos from GitBash
+
+commit 4a51d880c67b98cb57bcb98f0b9fabe83b679311
+Author: afokin93 <andrei.fokin.teixeira@gmail.com>
+Date:   Thu Feb 8 21:54:20 2024 +0000
+
+    Changing trisavos from GitBash
+
+commit 8a586549ded68d803a869b6542a92396a1029dbd
+Author: Andrei Fokin Teixeira <andrei.fokin.teixeira@gmail.com>
+Date:   Thu Feb 8 21:46:13 2024 +0000
+
+    Update trisavos.txt
+
+    Updating content from laptop (normal)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 902 bytes | 225.00 KiB/s, done.
+From https://github.com/afokin93/my_first_git_repo
+   b4d4e88..f0dba64  master     -> origin/master
+Updating b4d4e88..f0dba64
+Fast-forward
+ bisavos.txt => "bisav\303\263s.txt"   | 0
+ tetravos.txt => "tetrav\303\263s.txt" | 0
+ trisavos.txt => "trisav\303\263s.txt" | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ rename bisavos.txt => "bisav\303\263s.txt" (100%)
+ rename tetravos.txt => "tetrav\303\263s.txt" (100%)
+ rename trisavos.txt => "trisav\303\263s.txt" (100%)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git tag v1.0
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git tag
+v1.0
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push origin v1.0
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/afokin93/my_first_git_repo.git
+ * [new tag]         v1.0 -> v1.0
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "av\303\263s.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git add .
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git commit
+[master bb20dd6] losing issue. Closes #2.
+ 1 file changed, 4 insertions(+)
+ create mode 100644 "av\303\263s.txt"
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 156.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/afokin93/my_first_git_repo.git
+   f0dba64..bb20dd6  master -> master
+
+user@DESKTOP-8LMUBNA MINGW64 ~/.ssh/page (master)
+$
